@@ -22,6 +22,7 @@
         "ignore": "**/test"
     },
     "dependencies": {
+        "discord-rich-presence": "^0.0.8",
         "electron-updater": "^6.1.8",
         "minecraft-java-core": "^4.2.3",
         "node-bdd": "^2.0.4",
