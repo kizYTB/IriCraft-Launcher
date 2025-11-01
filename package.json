@@ -1,8 +1,8 @@
 {
     "name": "IriCraft-Launcher",
     "preductname": "iricraft-launcher",
-    "version": "2.1.3",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "version": "1.0.0",
+    "description": "Launcher Mincraft pour le Skyblock moddée Iricraft. ",
     "main": "src/app.js",
     "author": {
         "name": "Kiz, S",
@@ -22,8 +22,6 @@
         "ignore": "**/test"
     },
     "dependencies": {
-        "discord-rich-presence": "^0.0.8",
-        "discord-rpc": "^4.0.1",
         "electron-updater": "^6.1.8",
         "minecraft-java-core": "^4.2.3",
         "node-bdd": "^2.0.4",
@@ -41,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/kizYTB/IriCraft-Launcher.git"
     }
 }
