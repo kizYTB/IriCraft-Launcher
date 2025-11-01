@@ -1,0 +1,46 @@
+{
+    "name": "IriCraft-Launcher",
+    "preductname": "iricraft-launcher",
+    "version": "2.1.3",
+    "description": "Launcher Mincraft pour le serveur Selvania",
+    "main": "src/app.js",
+    "author": {
+        "name": "Kiz, S",
+        "email": "kiz@jtheberg.cloud",
+        "url": "https://github.com/KizYTB"
+    },
+    "url": "http://api.iricraft.site/v1/launcher",
+    "scripts": {
+        "start": "cross-env-shell NODE_ENV=dev electron .",
+        "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
+        "build": "node build.js --obf=true --build=platform",
+        "icon": "node build.js --icon=https://api.iricraft.site/v1/assets/images/logo/logo.png"
+    },
+    "license": "MIT",
+    "nodemonConfig": {
+        "ext": "js,html,css",
+        "ignore": "**/test"
+    },
+    "dependencies": {
+        "discord-rich-presence": "^0.0.8",
+        "discord-rpc": "^4.0.1",
+        "electron-updater": "^6.1.8",
+        "minecraft-java-core": "^4.2.3",
+        "node-bdd": "^2.0.4",
+        "node-fetch": "^2.7.0",
+        "xml-js": "^1.6.11"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "electron": "^30.5.1",
+        "electron-builder": "^26.0.12",
+        "javascript-obfuscator": "^4.1.0",
+        "jimp": "^0.22.12",
+        "nodemon": "^3.1.2",
+        "png2icons": "^2.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+    }
+}
